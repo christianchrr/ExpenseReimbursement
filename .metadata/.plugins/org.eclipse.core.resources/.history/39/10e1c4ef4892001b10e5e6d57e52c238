@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>ExpenseReimbursement</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AllEmplopyeeShow</display-name>
+    <servlet-name>AllEmplopyeeShow</servlet-name>
+    <servlet-class>com.revature.christian.servlet.AllEmplopyeeShow</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllEmplopyeeShow</servlet-name>
+    <url-pattern>/AllEmplopyeeShow</url-pattern>
+  </servlet-mapping>
+</web-app>
