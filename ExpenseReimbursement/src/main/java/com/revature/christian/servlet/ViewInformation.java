@@ -46,7 +46,17 @@ public class ViewInformation extends HttpServlet {
 	    String type = user.getUser_type();
 	    
 //	    out.print("<head><link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6\" crossorigin=\"anonymous\"></head>");
-	    out.print("<h2>Info</h2>" + "<p><u>Name:</u></p>" + first + " " + last + "<br>" + "<p><u>User Name:</u></p>"  + username + "<br>" + "<p><u>Title:</u></p>" + type);
+	    out.print("<h1>Info</h1>");
+	    out.print(
+	    		"<p><u><b>Name:</b></u></p>" 
+	    		+ first + " " + last 
+	    		+ "<br>" 
+	    		+ "<p><u><b>User Name:</b></u></p>" 
+	    		+ username 
+	    		+ "<br>" 
+	    		+ "<p><u><b>Title:</b></u></p>" 
+	    		+ type
+	    );
 	}
 
 	/**

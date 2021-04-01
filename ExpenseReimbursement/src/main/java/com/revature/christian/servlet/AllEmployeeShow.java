@@ -42,8 +42,21 @@ public class AllEmployeeShow extends HttpServlet {
 	    List<Users> employees = dao.getAllUsers();
 	    
 //	    out.print("<head><link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6\" crossorigin=\"anonymous\"></head>");
-	    out.print("<h2>Info</h2>");
-	    employees.forEach((employee) -> out.print("<p><u>Name:</u></p>" + employee.getUser_first() + " " + employee.getUser_last() + "<br>" + "<p><u>User Name:</u></p>"  + employee.getUser_username() + "<br>" + "<p><u>Title:</u></p>" + employee.getUser_type()));
+	    out.print("<h1>Info</h1>");
+	    employees.forEach((employee) -> out.print(
+	    		"<p><u><b>Name:</b></u></p>" 
+	    		+ employee.getUser_first() + " " + employee.getUser_last()
+	    		+ "<br>" 
+	    		+ "<p><u><b>User Name:</b></u></p>"  
+	    		+ employee.getUser_username()
+	    		+ "<br>" 
+	    		+ "<p><u><b>Title:</b></u></p>" 
+	    		+ employee.getUser_type()
+	    		+ "<br>"
+	    		+ "<br>"
+	    		+ "<b>====================</b>"
+	    		+ "<br>")
+	    );
 	}
 
 	/**

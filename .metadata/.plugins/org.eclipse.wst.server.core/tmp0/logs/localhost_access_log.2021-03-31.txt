@@ -6,3 +6,8 @@
 0:0:0:0:0:0:0:1 - - [31/Mar/2021:14:05:07 -0400] "POST /ExpenseReimbursement/AllEmployeeShow HTTP/1.1" 200 403
 0:0:0:0:0:0:0:1 - - [31/Mar/2021:14:05:10 -0400] "POST /ExpenseReimbursement/employeeUpdateForm.html HTTP/1.1" 200 1021
 0:0:0:0:0:0:0:1 - - [31/Mar/2021:14:05:13 -0400] "POST /ExpenseReimbursement/SessionLogout HTTP/1.1" 200 787
+127.0.0.1 - - [31/Mar/2021:23:09:18 -0400] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/Mar/2021:23:09:19 -0400] "GET /ExpenseReimbursement/ HTTP/1.1" 200 787
+0:0:0:0:0:0:0:1 - - [31/Mar/2021:23:09:32 -0400] "POST /ExpenseReimbursement/Login HTTP/1.1" 200 1062
+0:0:0:0:0:0:0:1 - - [31/Mar/2021:23:09:49 -0400] "POST /ExpenseReimbursement/ViewInformation HTTP/1.1" 200 114
+0:0:0:0:0:0:0:1 - - [31/Mar/2021:23:10:21 -0400] "POST /ExpenseReimbursement/employeeUpdateForm.html HTTP/1.1" 200 1021
