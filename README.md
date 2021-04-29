@@ -23,3 +23,6 @@ Managers:
 - View all pending and resolved reimbursement requests
 - View the pending and resolved reimbursements of a single employee
 - Approve reimbursements
+
+# Contributors
+> Christian Cherry
